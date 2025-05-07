@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/home.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <script src="../js/bangtinhome.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row navbar" style="background-color: #e1e1e1">
+        <div class="col-3 pl-5">
+          <a href="../html/home.html"
+            ><img
+              class="img-responsive rounded"
+              src="../images/logo.jpeg"
+              alt=""
+          /></a>
+          <span class="border-left small p-2 pr-2">we love rolex</span>
+        </div>
+
+        <div class="col-4">
+          <div class="bg-white rounded shadow">
+            <form action="">
+              <div class="bg-light rounded-pill shadow-sm">
+                <div class="input-group">
+                  <input
+                    type="search"
+                    placeholder="..."
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 bg-light"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link text-dark"
+                    >
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-5">
+          <ul class="nav justify-content-center float-right">
+            <li class="nav-fill">
+              <a
+                class="nav-link small pt-3 text-dark fa fa-user-plus"
+                href="../html/dangky.html"
+              >
+                Đăng ký</a
+              >
+            </li>
+            <li class="nav-fill">
+              <a
+                class="nav-link small pt-3 text-dark fa fa-user"
+                href="../html/danhnhap.html"
+              >
+                Đăng nhập</a
+              >
+            </li>
+
+            <li class="nav-fill">
+              <a
+                class="nav-link small fa fa-shopping-cart border-right pt-3 pl-5 text-dark"
+                href="../html/giohang.html"
+              ></a>
+            </li>
+
+            <li class="nav-fill">
+              <a
+                class="nav-link small fa fa-user pt-3 text-dark"
+                href="../html/gioithieu.html"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" style="background-color: #f1f1f1">
+        <div class="col-12 p-2">
+          <ul class="nav justify-content-center anav1">
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/gioithieu.html"
+                >Giới thiệu</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/muangay.html">Mua ngay</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/dattruoc.html"
+                >Đặt trước</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/tintuc.html">Tin tức</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/banchaytuan.html"
+                >Bán chạy tuần</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/danhgiatuan.html"
+                >Đánh giá cao tuần</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/magiamgia.html"
+                >Mã giảm giá</a
+              >
+            </li>
+            <li class="nav-item mr-3 pt-1">
+              <span class="nav-link small pt-2 fa fa-phone" href="">
+                +445 87 999 000</span
+              >
+            </li>
+            <input
+              class="small text-white bg-dark"
+              style="width: 120px"
+              type="submit"
+              onclick="goingay()"
+              value="Gọi ngay"
+            />
+          </ul>
+        </div>
+      </div>
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../images/banner_1.avif"
+              alt=""
+              width="1100"
+              height="500"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/banner_2.avif"
+              alt=""
+              width="1100"
+              height="500"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/banner_3.avif"
+              alt=""
+              width="1100"
+              height="500"
+            />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <div class="row text-center pt-4">
+        <div class="col-4">
+          <p class="fas fa-truck"><b class="pl-3">Miễn phí vận chuyển</b></p>
+        </div>
+
+        <div class="col-4">
+          <p class="fas fa-star">
+            <b class="pl-3">Tích lũy điểm thân thiết</b>
+          </p>
+        </div>
+
+        <div class="col-4 text-center">
+          <p class="fas fa-book"><b class="pl-3">Đảm bảo chính hãng</b></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4 class="pl-5 pt-4"><strong>Đề xuất cho bạn</strong></h4>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            id="myCarousel"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="0"
+          >
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item carousel-item active">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch1.avif"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Submariner</h4>
+                        <p class="item-price">
+                          <strike>6.000 USD</strike><span>5.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch1.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch2.avif"
+                          class="img-fluid"
+                          alt="Headphone"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Daytona</h4>
+                        <p class="item-price">
+                          <strike>11.000 USD</strike> <span>9.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch2.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch3.avif"
+                          class="img-fluid"
+                          alt="Macbook"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Datejust</h4>
+                        <p class="item-price"><span>15.000 USD</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-half"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch3.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch4.avif"
+                          class="img-fluid"
+                          alt="Macbook"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Day-Date</h4>
+                        <p class="item-price">
+                          <strike>14.500 USD</strike> <span>14.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-half-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch4.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item carousel-item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch5.avif"
+                          class="img-fluid"
+                          alt="Play Station"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex GMT-Master II</h4>
+                        <p class="item-price">
+                          <strike>18.000 USD</strike> <span>16.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch5.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch6.avif"
+                          class="img-fluid"
+                          alt="Macbook"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Explorer</h4>
+                        <p class="item-price">
+                          <strike>17.000 USD</strike> <span>14.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch6.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/wacth7.avif"
+                          class="img-fluid"
+                          alt="Speaker"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Yacht-Master</h4>
+                        <p class="item-price">
+                          <strike>20.000 USD</strike> <span>18.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch7.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch8.avif"
+                          class="img-fluid"
+                          alt="Galaxy"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Milgauss</h4>
+                        <p class="item-price">
+                          <strike>22.000 USD</strike> <span>20.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch8.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a
+              class="carousel-control-prev"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <h4 class="pl-5 pt-4"><strong>Bạn có thể thích</strong></h4>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            id="myCarousel2"
+            class="carousel slide"
+            data-ride="carousel"
+            data-interval="0"
+          >
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#myCarousel2"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#myCarousel2" data-slide-to="1"></li>
+              <li data-target="#myCarousel2" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item carousel-item active">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch8.avif"
+                          class="img-fluid"
+                          alt="Galaxy"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Milgauss</h4>
+                        <p class="item-price">
+                          <strike>22.000 USD</strike> <span>20.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch8.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/wacth7.avif"
+                          class="img-fluid"
+                          alt="Speaker"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Yacht-Master</h4>
+                        <p class="item-price">
+                          <strike>20.000 USD</strike> <span>18.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch7.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch6.avif"
+                          class="img-fluid"
+                          alt="Macbook"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Explorer</h4>
+                        <p class="item-price">
+                          <strike>17.000 USD</strike> <span>14.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch6.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch5.avif"
+                          class="img-fluid"
+                          alt="Play Station"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex GMT-Master II</h4>
+                        <p class="item-price">
+                          <strike>18.000 USD</strike> <span>16.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch5.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item carousel-item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch4.avif"
+                          class="img-fluid"
+                          alt="Macbook"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Day-Date</h4>
+                        <p class="item-price">
+                          <strike>14.500 USD</strike> <span>14.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-half-o"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch4.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch3.avif"
+                          class="img-fluid"
+                          alt="Macbook"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Datejust</h4>
+                        <p class="item-price"><span>15.000 USD</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star-half"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch3.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch2.avif"
+                          class="img-fluid"
+                          alt="Headphone"
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Daytona</h4>
+                        <p class="item-price">
+                          <strike>11.000 USD</strike> <span>9.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch2.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <span class="wish-icon"
+                        ><i class="fa fa-heart-o"></i
+                      ></span>
+                      <div class="img-box">
+                        <img
+                          src="../images/watch1.avif"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Rolex Submariner</h4>
+                        <p class="item-price">
+                          <strike>6.000 USD</strike><span>5.000 USD</span>
+                        </p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                            <li class="list-inline-item">
+                              <i class="fa fa-star"></i>
+                            </li>
+                          </ul>
+                        </div>
+                        <a href="../html/watch1.html" class="btn btn-primary"
+                          >Xem thêm</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a
+              class="carousel-control-prev"
+              href="#myCarousel2"
+              data-slide="prev"
+            >
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#myCarousel2"
+              data-slide="next"
+            >
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 pl-5 pt-4">
+          <h4><strong>Bạn có biết chúng tôi?</strong></h4>
+          <p class="pt-3">
+            Chúng tôi nói về đồng hồ với mục tiêu giúp bạn nhận ra sức mạnh của
+            một chiếc đồng hồ – không chỉ là công cụ xem giờ, mà còn là biểu
+            tượng của phong cách, đẳng cấp và sự tinh tế. Đồng hồ có thể thay
+            đổi cách bạn nhìn nhận về thời gian, giúp bạn tập trung hơn vào từng
+            khoảnh khắc và sống trọn vẹn với thế giới xung quanh.
+            <strong>Công Hiến</strong> hợp tác chặt chẽ với các thương hiệu và
+            nhà phân phối uy tín, đảm bảo rằng chúng tôi chỉ mang đến cho bạn
+            những mẫu đồng hồ độc đáo và chất lượng nhất, để mang lại sự hài
+            lòng cao nhất.
+          </p>
+          <p>
+            Nếu bạn đam mê đồng hồ – đừng ngần ngại đăng ký nhận
+            <strong>bản tin của chúng tôi</strong> để luôn cập nhật những xu
+            hướng mới và ưu đãi hấp dẫn!
+          </p>
+
+          <form action="">
+            <input
+              class="form-control border-top-0 border-left-0 border-right-0 mb-3"
+              type="text"
+              id="yName"
+              placeholder="Your Name"
+            />
+            <span class="text-danger" id="errorname"></span>
+            <input
+              class="form-control border-top-0 border-left-0 border-right-0"
+              type="text"
+              id="yEmail"
+              placeholder="Your Email"
+            />
+            <span class="text-danger" id="errore1"></span>
+            <input
+              type="button"
+              class="form-control mt-4 text-danger btn-dark"
+              onclick="dangkytin()"
+              value="Subscribe"
+            />
+          </form>
+        </div>
+
+        <div class="col-6 pl-5 pt-5">
+          <img
+            class="img-thumbnail text-center"
+            src="../images/map1.png"
+            alt=""
+            style="width: 470px; height: 300px"
+          />
+        </div>
+      </div>
+
+      <div class="row bg-dark mt-5">
+        <div class="col-3 text-white">
+          <a href="../html/home.html"
+            ><img
+              style="margin-left: 73px"
+              class="img-responsive rounded mt-5"
+              src="../images/logo.jpeg"
+              alt=""
+          /></a>
+          <ul class="nav mt-4 pl-5">
+            <li class="nav-item">
+              <a class="text-white fab fa-facebook-square mr-4" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white fab fa-instagram mr-4" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="fab fa-twitter text-white" href=""></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 pt-3">
+          <table class="table table-borderless text-white">
+            <thead>
+              <tr>
+                <th>Thể loại</th>
+                <th>Hỗ trợ & Liên hệ</th>
+                <th>Giới thiệu</th>
+              </tr>
+            </thead>
+            <tbody class="table-hover text-danger">
+              <tr>
+                <td class="text-white-50">Đời sống</td>
+                <td class="text-white-50">
+                  <span class="fa fa-phone"> +445 87 999 000</span>
+                </td>
+                <td class="text-white-50">Đề tài</td>
+              </tr>
+              <tr>
+                <td class="text-white-50">Trải nghiệm</td>
+                <td class="text-white-50">
+                  <span class="fas fa-clock"> Mo-Fri, 9AM to 11PM</span>
+                </td>
+                <td class="text-white-50">Phong cách</td>
+              </tr>
+              <tr>
+                <td class="text-white-50">Đẳng cấp</td>
+                <td class="text-white-50">
+                  <span class="fa fa-envelope"> conghien@gmail.com</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-3 pt-5">
+          <p class="mr-5 text-white text-center">
+            Nếu bạn có câu hỏi, bạn có thể liên lạc với chúng tôi.
+          </p>
+          <div class="text-center mr-5">
+            <input
+              class="text-white btn btn-danger"
+              style="width: 120px"
+              type="submit"
+              onclick="goingay()"
+              value="Gọi ngay"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
