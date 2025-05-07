@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bán chạy tuần</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/home.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <script src="../js/bangtinhome.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row navbar" style="background-color: #e1e1e1">
+        <div class="col-3 pl-5">
+          <a href="../html/home.html"
+            ><img
+              class="img-responsive rounded"
+              src="../images/logo.jpeg"
+              alt=""
+          /></a>
+          <span class="border-left small p-2 pr-2">we love rolex</span>
+        </div>
+
+        <div class="col-4">
+          <div class="bg-white rounded shadow">
+            <form action="">
+              <div class="bg-light rounded-pill shadow-sm">
+                <div class="input-group">
+                  <input
+                    type="search"
+                    placeholder="..."
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 bg-light"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link text-dark"
+                    >
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-5">
+          <ul class="nav justify-content-center float-right">
+            <li class="nav-fill">
+              <a
+                class="nav-link small pt-3 text-dark fa fa-user-plus"
+                href="../html/dangky.html"
+              >
+                Đăng ký</a
+              >
+            </li>
+            <li class="nav-fill">
+              <a
+                class="nav-link small pt-3 text-dark fa fa-user"
+                href="../html/danhnhap.html"
+              >
+                Đăng nhập</a
+              >
+            </li>
+
+            <li class="nav-fill">
+              <a
+                class="nav-link small fa fa-shopping-cart border-right pt-3 pl-5 text-dark"
+                href="../html/giohang.html"
+              ></a>
+            </li>
+
+            <li class="nav-fill">
+              <a
+                class="nav-link small fa fa-user pt-3 text-dark"
+                href="../html/gioithieu.html"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" style="background-color: #f1f1f1">
+        <div class="col-12 p-2">
+          <ul class="nav justify-content-center anav1">
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/gioithieu.html"
+                >Giới thiệu</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/muangay.html">Mua ngay</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/dattruoc.html"
+                >Đặt trước</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/tintuc.html">Tin tức</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/banchaytuan.html"
+                >Bán chạy tuần</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/danhgiatuan.html"
+                >Đánh giá cao tuần</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/magiamgia.html"
+                >Mã giảm giá</a
+              >
+            </li>
+            <li class="nav-item mr-3 pt-1">
+              <span class="nav-link small pt-2 fa fa-phone" href="">
+                +445 87 999 000</span
+              >
+            </li>
+            <input
+              class="small text-white bg-dark"
+              style="width: 120px"
+              type="submit"
+              onclick="goingay()"
+              value="Gọi ngay"
+            />
+          </ul>
+        </div>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col-12">
+          <h3 class="text-center pt-4">
+            <strong>TOP ĐỒNG HỒ ĐÁNH GIÁ CAO NHẤT TUẦN</strong>
+          </h3>
+          <p class="text-right mr-5">
+            <strong>Lần cập nhật cuối:</strong> 22/04/2025
+          </p>
+        </div>
+      </div>
+
+      <div class="card ml-5 mr-5">
+        <div class="card-body">
+          <div class="row border-bottom pt-4">
+            <div class="col-md-2">
+              <a href="../html/watch4.html"
+                ><img src="../images/watch4.avif" style="width: 145px"
+              /></a>
+              <p class="text-warning text-center mt-3">
+                <strong class="bg-dark">TOP 1</strong>
+              </p>
+            </div>
+            <div class="col-md-10">
+              <h4 class="text-warning text-center bg-dark">
+                <strong>Rolex Day-Date</strong>
+              </h4>
+              <div class="star-rating float-right">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <strong>Lượt đánh giá:</strong>
+                  </li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <p>
+                <b>Mô tả: </b>
+                <a class="text-warning" href="../html/watch4.html"
+                  >Rolex Day-Date</a
+                >
+                là mẫu đồng hồ cao cấp ra mắt năm 1956, nổi tiếng vì lần đầu
+                tiên hiển thị đầy đủ cả ngày trong tuần và ngày trong tháng trên
+                mặt số. Thường được chế tác từ kim loại quý như vàng hoặc bạch
+                kim, Day-Date còn được gọi là "President" vì gắn liền với nhiều
+                nguyên thủ quốc gia và nhân vật nổi tiếng. Thiết kế sang trọng,
+                dây đeo President đặc trưng và tính năng lịch đôi khiến Day-Date
+                trở thành biểu tượng của đẳng cấp và thành công.
+              </p>
+              <p class="text-right"><b>Đã bán:</b> 15 sản phẩm</p>
+            </div>
+          </div>
+
+          <div class="row border-bottom pt-4">
+            <div class="col-md-2">
+              <a href="../html/watch1.html"
+                ><img src="../images/watch1.avif" style="width: 145px"
+              /></a>
+              <p class="text-warning text-center">
+                <strong class="bg-dark">TOP 2</strong>
+              </p>
+            </div>
+            <div class="col-md-10">
+              <h4 class="text-warning text-center bg-dark">
+                <strong>Rolex Submariner</strong>
+              </h4>
+              <div class="star-rating float-right">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <strong>Lượt đánh giá:</strong>
+                  </li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <p>
+                <b>Mô tả: </b>
+                <a class="text-warning" href="../html/watch1.html"
+                  >Rolex Submariner</a
+                >
+                là mẫu đồng hồ lặn huyền thoại ra mắt năm 1953, nổi tiếng với
+                thiết kế thể thao, khả năng chống nước xuất sắc (lên tới 300m),
+                và vòng bezel xoay đơn hướng giúp theo dõi thời gian lặn.
+                Submariner mang phong cách mạnh mẽ nhưng vẫn thanh lịch, phù hợp
+                cả khi đi biển lẫn trong các sự kiện trang trọng. Đây là một
+                trong những biểu tượng kinh điển nhất của Rolex và của thế giới
+                đồng hồ cao cấp.
+              </p>
+
+              <p class="text-right"><b>Đã bán:</b> 20 sản phẩm</p>
+            </div>
+          </div>
+
+          <div class="row border-bottom pt-4">
+            <div class="col-md-2">
+              <a href="../html/watch6.html"
+                ><img src="../images/watch6.avif" style="width: 145px"
+              /></a>
+              <p class="text-warning text-center mt-3">
+                <strong class="bg-dark">TOP 3</strong>
+              </p>
+            </div>
+            <div class="col-md-10">
+              <h4 class="text-warning text-center bg-dark">
+                <strong>Rolex Explorer</strong>
+              </h4>
+              <div class="star-rating float-right">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <strong>Lượt đánh giá:</strong>
+                  </li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <p>
+                <b>Mô tả: </b>Với "<a
+                  class="text-warning"
+                  href="../html/watch6.html"
+                  >Rolex Explorer</a
+                >" Rolex Explorer là một dòng đồng hồ mang tính biểu tượng của
+                Rolex, được thiết kế để đồng hành cùng những cuộc thám hiểm và
+                khám phá khắc nghiệt nhất. Đây là chiếc đồng hồ kết tinh giữa sự
+                đơn giản, mạnh mẽ và độ bền cao, được Rolex phát triển dựa trên
+                những kinh nghiệm thực tế từ các cuộc leo núi đỉnh Everest.
+              </p>
+              <p class="text-right"><b>Đã bán:</b> 14 sản phẩm</p>
+            </div>
+          </div>
+
+          <div class="row border-bottom pt-4">
+            <div class="col-md-2">
+              <a href="../html/watch7.html"
+                ><img
+                  src="../images/wacth7.avif"
+                  style="width: 145px; height: 220px"
+              /></a>
+              <p class="text-warning text-center mt-3">
+                <strong class="bg-dark">TOP 4</strong>
+              </p>
+            </div>
+            <div class="col-md-10">
+              <h4 class="text-warning text-center bg-dark">
+                <strong>Rolex Yacht-Master</strong>
+              </h4>
+              <div class="star-rating float-right">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <strong>Lượt đánh giá:</strong>
+                  </li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <p>
+                <b>Mô tả: </b>Với "<a
+                  class="text-warning"
+                  href="../html/watch7.html"
+                  >Rolex Yacht-Master</a
+                >" Rolex Yacht-Master là mẫu đồng hồ thể thao sang trọng được
+                Rolex ra mắt lần đầu vào năm 1992, thiết kế dành riêng cho giới
+                yêu thích hàng hải và du thuyền. Kết hợp giữa tính năng mạnh mẽ
+                và vẻ ngoài tinh tế, Yacht-Master nổi bật với vòng bezel xoay
+                hai chiều bằng kim loại quý hoặc gốm Cerachrom, giúp đo thời
+                gian trên biển một cách linh hoạt. Mặt số dễ đọc, kim và vạch
+                giờ phủ Chromalight phát sáng rõ trong điều kiện thiếu sáng.
+                Yacht-Master thường được chế tác từ vàng, Rolesium (kết hợp thép
+                và bạch kim), hoặc Everose gold, đi kèm dây đeo Oyster hoặc cao
+                su thể thao Oysterflex.
+              </p>
+              <p class="text-right"><b>Đã bán:</b> 9 sản phẩm</p>
+            </div>
+          </div>
+
+          <div class="row pt-4">
+            <div class="col-md-2">
+              <a href="../html/watch2.html"
+                ><img
+                  src="../images/watch2.avif"
+                  style="width: 145px; height: 230px"
+              /></a>
+              <p class="text-warning text-center mt-3">
+                <strong class="bg-dark">TOP 5</strong>
+              </p>
+            </div>
+            <div class="col-md-10">
+              <h4 class="text-warning text-center bg-dark">
+                <strong>Rolex Daytona</strong>
+              </h4>
+              <div class="star-rating float-right">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <strong>Lượt đánh giá:</strong>
+                  </li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <p>
+                <b>Mô tả: </b>Với "<a
+                  class="text-warning"
+                  href="../html/watch2.html"
+                  >Rolex Daytona</a
+                >"Rolex Daytona là mẫu đồng hồ chronograph thể thao cao cấp được
+                Rolex giới thiệu vào năm 1963, nổi tiếng với khả năng đo thời
+                gian chính xác và thiết kế lấy cảm hứng từ đua xe. Tên đầy đủ là
+                Cosmograph Daytona, dòng đồng hồ này được tạo ra để phục vụ các
+                tay đua chuyên nghiệp, với thang đo tốc độ trên vòng bezel và bộ
+                đếm giờ tích hợp. Daytona thường được chế tác từ thép không gỉ,
+                vàng, hoặc bạch kim, và nổi bật với mặt số có ba mặt phụ đặc
+                trưng. Gắn liền với những nhân vật như Paul Newman và các sự
+                kiện tốc độ danh tiếng, Rolex Daytona là biểu tượng của hiệu
+                suất, phong cách và giá trị sưu tầm vượt thời gian.
+              </p>
+              <p class="text-right"><b>Đã bán:</b> 11 sản phẩm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bg-dark mt-5">
+        <div class="col-3 text-white">
+          <a href="../html/home.html"
+            ><img
+              style="margin-left: 73px"
+              class="img-responsive rounded mt-5"
+              src="../images/logo.jpeg"
+              alt=""
+          /></a>
+          <ul class="nav mt-4 pl-5">
+            <li class="nav-item">
+              <a class="text-white fab fa-facebook-square mr-4" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white fab fa-instagram mr-4" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="fab fa-twitter text-white" href=""></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 pt-3">
+          <table class="table table-borderless text-white">
+            <thead>
+              <tr>
+                <th>Thể loại</th>
+                <th>Hỗ trợ & Liên hệ</th>
+                <th>Giới thiệu</th>
+              </tr>
+            </thead>
+            <tbody class="table-hover text-danger">
+              <tr>
+                <td class="text-white-50">Đời sống</td>
+                <td class="text-white-50">
+                  <span class="fa fa-phone"> +445 87 999 000</span>
+                </td>
+                <td class="text-white-50">Đề tài</td>
+              </tr>
+              <tr>
+                <td class="text-white-50">Trải nghiệm</td>
+                <td class="text-white-50">
+                  <span class="fas fa-clock"> Mo-Fri, 9AM to 11PM</span>
+                </td>
+                <td class="text-white-50">Phong cách</td>
+              </tr>
+              <tr>
+                <td class="text-white-50">Đẳng cấp</td>
+                <td class="text-white-50">
+                  <span class="fa fa-envelope"> conghien@gmail.com</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-3 pt-5">
+          <p class="mr-5 text-white text-center">
+            Nếu bạn có câu hỏi, bạn có thể liên lạc với chúng tôi.
+          </p>
+          <div class="text-center mr-5">
+            <input
+              class="text-white btn btn-danger"
+              style="width: 120px"
+              type="submit"
+              onclick="goingay()"
+              value="Gọi ngay"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

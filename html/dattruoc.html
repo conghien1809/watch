@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pre-Order</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <script src="../js/dangky.js"></script>
+    <script src="../js/bangtinhome.js"></script>
+    <script src="../js/dathang.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row navbar" style="background-color: #e1e1e1">
+        <div class="col-3 pl-5">
+          <a href="../html/home.html"
+            ><img
+              class="img-responsive rounded"
+              src="../images/logo.jpeg"
+              alt=""
+          /></a>
+          <span class="border-left small p-2 pr-2">we love rolex</span>
+        </div>
+
+        <div class="col-4">
+          <div class="bg-white rounded shadow">
+            <form action="">
+              <div class="bg-light rounded-pill shadow-sm">
+                <div class="input-group">
+                  <input
+                    type="search"
+                    placeholder="..."
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 bg-light"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link text-dark"
+                    >
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-5">
+          <ul class="nav justify-content-center float-right">
+            <li class="nav-fill">
+              <a
+                class="nav-link small pt-3 text-dark fa fa-user-plus"
+                href="../html/dangky.html"
+              >
+                Đăng ký</a
+              >
+            </li>
+            <li class="nav-fill">
+              <a
+                class="nav-link small pt-3 text-dark fa fa-user"
+                href="../html/danhnhap.html"
+              >
+                Đăng nhập</a
+              >
+            </li>
+
+            <li class="nav-fill">
+              <a
+                class="nav-link small fa fa-shopping-cart border-right pt-3 pl-5 text-dark"
+                href="../html/giohang.html"
+              ></a>
+            </li>
+
+            <li class="nav-fill">
+              <a
+                class="nav-link small fa fa-user pt-3 text-dark"
+                href="../html/gioithieu.html"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" style="background-color: #f1f1f1">
+        <div class="col-12 p-2">
+          <ul class="nav justify-content-center anav1">
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/gioithieu.html"
+                >Giới thiệu</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/muangay.html">Mua ngay</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/dattruoc.html"
+                >Đặt trước</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/tintuc.html">Tin tức</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/banchaytuan.html"
+                >Bán chạy tuần</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/danhgiatuan.html"
+                >Đánh giá cao tuần</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/magiamgia.html"
+                >Mã giảm giá</a
+              >
+            </li>
+            <li class="nav-item mr-3 pt-1">
+              <span class="nav-link small pt-2 fa fa-phone" href="">
+                +445 87 999 000</span
+              >
+            </li>
+            <input
+              class="small text-white bg-dark"
+              style="width: 120px"
+              type="submit"
+              onclick="goingay()"
+              value="Gọi ngay"
+            />
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-5">
+        <h3 class="pt-4 text-center"><strong>PRE-ORDER</strong></h3>
+      </div>
+      <h5 class="text-danger mr-5 ml-5">
+        Danh sách các mặt hàng được phép đặt trước
+      </h5>
+      <div class="table-hover mr-5 ml-5">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>STT</th>
+              <th>Tên hàng</th>
+              <th>Dòng Rolex</th>
+              <th>Chất liệu</th>
+              <th>Giá bán</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>
+                <a class="text-dark" href="../html/watch6.html">Explorer</a>
+              </td>
+              <td>Professional</td>
+              <td>Thép/Vàng</td>
+              <td>14.000$</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <a class="text-dark" href="../html/watch7.html">Yacht-Master</a>
+              </td>
+              <td>Professional</td>
+              <td>Thép/Vàng</td>
+              <td>18.000$</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                <a class="text-dark" href="../html/watch8.html">Milgauss</a>
+              </td>
+              <td>Ultra-Luxury</td>
+              <td>Vàng/Platinum</td>
+              <td>20.000$</td>
+            </tr>
+          </tbody>
+        </table>
+        <button
+          type="button"
+          class="btn btn-dark mt-3"
+          id="dangky"
+          style="border-radius: 20px; margin-left: 470px"
+        >
+          Đặt trước
+        </button>
+      </div>
+
+      <div class="row bg-dark mt-5">
+        <div class="col-3 text-white">
+          <a href="../html/home.html"
+            ><img
+              style="margin-left: 73px"
+              class="img-responsive rounded mt-5"
+              src="../images/logo.jpeg"
+              alt=""
+          /></a>
+          <ul class="nav mt-4 pl-5">
+            <li class="nav-item">
+              <a class="text-white fab fa-facebook-square mr-4" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white fab fa-instagram mr-4" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="fab fa-twitter text-white" href=""></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 pt-3">
+          <table class="table table-borderless text-white">
+            <thead>
+              <tr>
+                <th>Thể loại</th>
+                <th>Hỗ trợ & Liên hệ</th>
+                <th>Giới thiệu</th>
+              </tr>
+            </thead>
+            <tbody class="table-hover text-danger">
+              <tr>
+                <td class="text-white-50">Đời sống</td>
+                <td class="text-white-50">
+                  <span class="fa fa-phone"> +445 87 999 000</span>
+                </td>
+                <td class="text-white-50">Đề tài</td>
+              </tr>
+              <tr>
+                <td class="text-white-50">Trải nghiệm</td>
+                <td class="text-white-50">
+                  <span class="fas fa-clock"> Mo-Fri, 9AM to 11PM</span>
+                </td>
+                <td class="text-white-50">Phong cách</td>
+              </tr>
+              <tr>
+                <td class="text-white-50">Đẳng cấp</td>
+                <td class="text-white-50">
+                  <span class="fa fa-envelope"> conghien@gmail.com</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-3 pt-5">
+          <p class="mr-5 text-white text-center">
+            Nếu bạn có câu hỏi, bạn có thể liên lạc với chúng tôi.
+          </p>
+          <div class="text-center mr-5">
+            <input
+              class="text-white btn btn-danger"
+              style="width: 120px"
+              type="submit"
+              onclick="goingay()"
+              value="Gọi ngay"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">THÔNG TIN ĐẶT HÀNG</h4>
+            <button type="button" class="close" data-dismiss="modal">x</button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <div class="text-danger" id="thongbao"></div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-5" for="txtHT">Họ và tên</label>
+              <div class="col-md-12">
+                <input class="form-control" type="text" name="" id="txtHT" />
+                <span id="e1" class="text-danger">*</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-5" for="txtSDT">Số điện thoại</label>
+              <div class="col-md-12">
+                <input class="form-control" type="text" name="" id="txtSDT" />
+                <span id="e2" class="text-danger">*</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-5" for="txtDate">Ngày sinh</label>
+              <div class="col-md-12">
+                <input class="form-control" type="date" name="" id="txtDate" />
+                <span id="e3" class="text-danger">*</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-5" for="txtDC">Địa chỉ</label>
+              <div class="col-md-12">
+                <input class="form-control" type="text" name="" id="txtDC" />
+                <span id="e4" class="text-danger">*</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-5" for="txtE">Email</label>
+              <div class="col-md-12">
+                <input class="form-control" type="text" name="" id="txtE" />
+                <span id="e5" class="text-danger">*</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-5" for="chon">Chọn mặt hàng muốn đặt</label>
+              <div class="col-md-12">
+                <select class="form-control" name="" id="chon">
+                  <option value="Explorer">Explorer</option>
+                  <option value="Yacht-Master">Yacht-Master</option>
+                  <option value="Milgauss">Milgauss</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-5" for="txtHP">Giá dự kiến</label>
+              <div class="col-md-12">
+                <input
+                  class="form-control"
+                  type="text"
+                  name=""
+                  id="txtHP"
+                  disabled
+                />
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-success form-control"
+              id="btnSave"
+            >
+              Đặt hàng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

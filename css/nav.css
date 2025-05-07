@@ -1,0 +1,30 @@
+.img-responsive{
+    width: 40px;
+}
+
+input[type=submit]{
+    width: 50px;
+    border-radius: 30px;
+    color: black;
+}
+.input-group{
+    border-radius: 50px;
+    color: black;
+}
+.anav1>li>a{
+  color: black;
+}
+.anav1>li>a:hover{
+  color: red;
+}
+a{
+    color: rgba(255, 255, 255, 0.521);
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+.imgsach{
+    width: 300px;
+    height: 550px;
+}

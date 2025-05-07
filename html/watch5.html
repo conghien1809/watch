@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rolex GMT-Master II</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/home.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <script src="../js/watch.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row navbar" style="background-color: #e1e1e1">
+        <div class="col-3 pl-5">
+          <a href="../html/home.html"
+            ><img
+              class="img-responsive rounded"
+              src="../images/logo.jpeg"
+              alt=""
+          /></a>
+          <span class="border-left small p-2 pr-2">we love rolex</span>
+        </div>
+
+        <div class="col-4">
+          <div class="bg-white rounded shadow">
+            <form action="">
+              <div class="bg-light rounded-pill shadow-sm">
+                <div class="input-group">
+                  <input
+                    type="search"
+                    placeholder="..."
+                    aria-describedby="button-addon1"
+                    class="form-control border-0 bg-light"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      id="button-addon1"
+                      type="submit"
+                      class="btn btn-link text-dark"
+                    >
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-5">
+          <ul class="nav justify-content-center float-right">
+            <li class="nav-fill">
+              <a
+                class="nav-link small pt-3 text-dark fa fa-user-plus"
+                href="../html/dangky.html"
+              >
+                Đăng ký</a
+              >
+            </li>
+            <li class="nav-fill">
+              <a
+                class="nav-link small pt-3 text-dark fa fa-user"
+                href="../html/danhnhap.html"
+              >
+                Đăng nhập</a
+              >
+            </li>
+
+            <li class="nav-fill">
+              <a
+                class="nav-link small fa fa-shopping-cart border-right pt-3 pl-5 text-dark"
+                href="../html/giohang.html"
+              ></a>
+            </li>
+
+            <li class="nav-fill">
+              <a
+                class="nav-link small fa fa-user pt-3 text-dark"
+                href="../html/gioithieu.html"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" style="background-color: #f1f1f1">
+        <div class="col-12 p-2">
+          <ul class="nav justify-content-center anav1">
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/gioithieu.html"
+                >Giới thiệu</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/muangay.html">Mua ngay</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/dattruoc.html"
+                >Đặt trước</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/tintuc.html">Tin tức</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/banchaytuan.html"
+                >Bán chạy tuần</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/danhgiatuan.html"
+                >Đánh giá cao tuần</a
+              >
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link small" href="../html/magiamgia.html"
+                >Mã giảm giá</a
+              >
+            </li>
+            <li class="nav-item mr-3 pt-1">
+              <span class="nav-link small pt-2 fa fa-phone" href="">
+                +445 87 999 000</span
+              >
+            </li>
+            <input
+              class="small text-white bg-dark"
+              style="width: 120px"
+              type="submit"
+              onclick="goingay()"
+              value="Gọi ngay"
+            />
+          </ul>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-4 text-right">
+          <img class="imgsach" src="../images/watch5.avif" alt="" />
+        </div>
+
+        <div class="col-8 pl-5">
+          <h3><strong> Rolex GMT-Master II </strong></h3>
+          <h6><i>Professional</i></h6>
+          <div class="star-rating">
+            <ul class="list-inline">
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+              <li class="list-inline-item"><i class="fa fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="pt-2">
+            <strong class="text-success">Giá: 16.000 USd</strong>
+            <strike class="pl-5"><strong>18.000 USD</strong></strike>
+          </div>
+          <div class="pt-4">
+            <p>
+              Một biểu tượng của sự tinh tế trong từng khoảnh khắc, Rolex
+              GMT-Master II khắc họa rõ nét vẻ đẹp của hành trình và thời gian.
+              Chiếc đồng hồ không chỉ đồng hành trong những chuyến đi xa mà còn
+              lưu giữ những khoảnh khắc thường nhật quý giá, nhắc nhở chúng ta
+              về giá trị của từng phút giây trong cuộc sống.
+            </p>
+          </div>
+          <strong>Số lượng: </strong
+          ><input
+            class="mt-3"
+            type="number"
+            min="1"
+            max="14"
+            name="sl"
+            id="sl"
+            style="width: 50px"
+          />
+          <div class="pt-5 text-center border-bottom pb-4">
+            <input
+              class="btn btn-dark mr-5"
+              type="button"
+              style="width: 200px; border-radius: 20px"
+              value="Thêm vào giỏ hàng"
+              onclick="giohang()"
+            />
+            <input
+              type="button"
+              class="btn btn-dark ml-5"
+              style="width: 200px; border-radius: 20px"
+              value="Đánh giá"
+              onclick="danhgia()"
+            />
+            <p class="pt-4 text-danger" id="errorgh"></p>
+          </div>
+          <div class="pt-3 border-bottom pb-3">
+            <strong>Nhà bán hàng: </strong>
+            <a class="text-danger" href="../html/home.html">Công Hiến</a>
+            <span class="pl-5"><strong>Độ tuổi: </strong>18</span>
+            <p class="pt-3"><strong>Mã barcode: </strong> 64356890</p>
+            <p><strong>Còn hàng: </strong> 14 sản phẩm</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pl-5">
+        <table class="table-borderless">
+          <thead>
+            <tr>
+              <td>
+                <h5 class="pl-3 pb-3"><strong>Thông tin sản phẩm</strong></h5>
+              </td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="text-black-50 pl-5 pb-2">Tên sản phẩm:</td>
+              <td class="pl-5">Rolex GMT-Master II</td>
+            </tr>
+            <tr>
+              <td class="text-black-50 pl-5 pb-2">Thương hiệu:</td>
+              <td class="pl-5">Rolex</td>
+            </tr>
+            <tr>
+              <td class="text-black-50 pl-5 pb-2">Xuất xứ:</td>
+              <td class="pl-5">Thụy Sĩ</td>
+            </tr>
+            <tr>
+              <td class="text-black-50 pl-5 pb-2">Chất liệu vỏ:</td>
+              <td class="pl-5">Thép không gỉ Oystersteel / Vàng 18K Everose</td>
+            </tr>
+            <tr>
+              <td class="text-black-50 pl-5 pb-2">Đường kính mặt:</td>
+              <td class="pl-5">40mm</td>
+            </tr>
+            <tr>
+              <td class="text-black-50 pl-5 pb-2">Trọng lượng:</td>
+              <td class="pl-5">140–160g</td>
+            </tr>
+            <tr>
+              <td class="text-black-50 pl-5 pb-2">Năm xuất bản:</td>
+              <td class="pl-5">1955</td>
+            </tr>
+          </tbody>
+        </table>
+        <i class="pl-5 pr-4 pb-2 pt-2">
+          Giá sản phẩm trên trang đã bao gồm thuế theo quy định hiện hành. Bên
+          cạnh đó, tùy vào loại đồng hồ, hình thức và địa chỉ giao hàng, có thể
+          phát sinh thêm các chi phí khác như phụ phí đóng gói, phí vận chuyển,
+          hoặc phụ phí cho sản phẩm kích thước lớn, cao cấp,...
+        </i>
+        <p class="text-danger pl-5 pr-5">
+          Chính sách khuyến mãi trên trang không áp dụng cho toàn quốc
+        </p>
+      </div>
+
+      <div class="text">
+        <h4 class="pt-2 pb-2 pl-5">
+          <i class="fa fa-star text-warning"></i>
+          <strong>Đánh giá nổi bật</strong>
+        </h4>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-4 text-center" style="margin-left: 100px">
+              <h1>5.0</h1>
+              <div class="star-rating">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="pb-4">
+                <span class="text-success">2 đánh giá</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <div class="col-md-3 text-right">
+                  5 <span class="fa fa-star text-warning"></span>
+                </div>
+                <div class="col-md-9">
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 100%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 text-right">
+                  4 <span class="fa fa-star text-warning"></span>
+                </div>
+                <div class="col-md-9">
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 0%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 text-right">
+                  3 <span class="fa fa-star text-warning"></span>
+                </div>
+                <div class="col-md-9">
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 0%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 text-right">
+                  2 <span class="fa fa-star text-warning"></span>
+                </div>
+                <div class="col-md-9">
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 0%"></div>
+                  </div>
+                </div>
+
+                <div class="col-md-3 text-right">
+                  1 <span class="fa fa-star text-warning"></span>
+                </div>
+                <div class="col-md-9">
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 0%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card ml-5 mr-5">
+        <div class="card-body">
+          <div class="row border-bottom">
+            <div class="col-md-2">
+              <img
+                src="../images/khach9.jpg"
+                style="width: 145px; border-radius: 100px"
+              />
+              <p class="text-danger text-center">championproblenm</p>
+              <p class="text-secondary text-center">1 tiếng trước</p>
+            </div>
+            <div class="col-md-10">
+              <div class="star-rating float-right">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <p>
+                Chiếc đồng hồ tuyệt vời, đặc biệt phù hợp với những ai yêu thích
+                sự linh hoạt và chính xác trong từng khoảnh khắc. GMT-Master II
+                không chỉ nổi bật bởi thiết kế tinh tế mà còn cực kỳ hữu ích cho
+                những người thường xuyên di chuyển giữa nhiều múi giờ. Rất đáng
+                để sở hữu, mình cực kỳ recommend cho những ai yêu thích phong
+                cách sống năng động và đẳng cấp.
+              </p>
+              <p>
+                <a
+                  class="float-right btn btn-outline-primary ml-2"
+                  onclick="reply()"
+                >
+                  <i class="fa fa-reply"></i> Reply</a
+                >
+                <a
+                  class="float-right btn text-white btn-danger"
+                  onclick="like()"
+                  id="likeb"
+                >
+                  <i class="fa fa-heart"></i> Like</a
+                >
+                <span class="fa fa-heart text-danger"></span>
+                <span class="text-danger" id="likeCount">10</span>
+                <strong class="text-danger">lượt thích</strong>
+              </p>
+            </div>
+          </div>
+
+          <div class="row pt-4">
+            <div class="col-md-2">
+              <img
+                src="../images/khach10.jpg"
+                style="width: 145px; border-radius: 100px"
+              />
+              <p class="text-danger text-center">hailezmidke</p>
+              <p class="text-secondary text-center">50 phút trước</p>
+            </div>
+            <div class="col-md-10">
+              <div class="star-rating float-right">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                  <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+              <p>
+                Tôi đã khám phá được nhiều điều tuyệt vời từ chiếc đồng hồ này,
+                và chỉ ước rằng mình đã có cơ hội sở hữu nó sớm hơn để có thể
+                trải nghiệm sự tiện ích và tinh tế trong từng khoảnh khắc. Rolex
+                GMT-Master II không chỉ giúp tôi quản lý thời gian hiệu quả mà
+                còn nâng tầm phong cách sống, giúp tôi hoàn thiện bản thân và
+                chinh phục những thử thách mới. Một sản phẩm đáng giá để đầu tư!
+              </p>
+              <p>
+                <a
+                  class="float-right btn btn-outline-primary ml-2"
+                  onclick="reply()"
+                >
+                  <i class="fa fa-reply"></i> Reply</a
+                >
+                <a
+                  class="float-right btn text-white btn-danger"
+                  onclick="like2()"
+                >
+                  <i class="fa fa-heart"></i> Like</a
+                >
+                <span class="fa fa-heart text-danger"></span>
+                <span class="text-danger" id="likeCount2">7</span>
+                <strong class="text-danger">lượt thích</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bg-dark mt-5">
+        <div class="col-3 text-white">
+          <a href="../html/home.html"
+            ><img
+              style="margin-left: 73px"
+              class="img-responsive rounded mt-5"
+              src="../images/logo.jpeg"
+              alt=""
+          /></a>
+          <ul class="nav mt-4 pl-5">
+            <li class="nav-item">
+              <a class="text-white fab fa-facebook-square mr-4" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white fab fa-instagram mr-4" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="fab fa-twitter text-white" href=""></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 pt-3">
+          <table class="table table-borderless text-white">
+            <thead>
+              <tr>
+                <th>Thể loại</th>
+                <th>Hỗ trợ & Liên hệ</th>
+                <th>Giới thiệu</th>
+              </tr>
+            </thead>
+            <tbody class="table-hover text-danger">
+              <tr>
+                <td class="text-white-50">Đời sống</td>
+                <td class="text-white-50">
+                  <span class="fa fa-phone"> +445 87 999 000</span>
+                </td>
+                <td class="text-white-50">Đề tài</td>
+              </tr>
+              <tr>
+                <td class="text-white-50">Trải nghiệm</td>
+                <td class="text-white-50">
+                  <span class="fas fa-clock"> Mo-Fri, 9AM to 11PM</span>
+                </td>
+                <td class="text-white-50">Phong cách</td>
+              </tr>
+              <tr>
+                <td class="text-white-50">Đẳng cấp</td>
+                <td class="text-white-50">
+                  <span class="fa fa-envelope"> conghien@gmail.com</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-3 pt-5">
+          <p class="mr-5 text-white text-center">
+            Nếu bạn có câu hỏi, bạn có thể liên lạc với chúng tôi.
+          </p>
+          <div class="text-center mr-5">
+            <input
+              class="text-white btn btn-danger"
+              style="width: 120px"
+              type="submit"
+              onclick="goingay()"
+              value="Gọi ngay"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
