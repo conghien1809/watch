@@ -54,7 +54,7 @@ $(document).ready(function () {
   var hoten = $("#txtHT");
   var e1 = $("#e1");
   function ktten() {
-    var rbt = /^[A-Z][a-z]+(?: [A-Z][a-z]+)?$/;
+    var rbt = /^([A-Z][a-z]+)(\s[A-Z][a-z]+)+$/;
     if (hoten.val() == "") {
       e1.html("* Không được rỗng");
       return false;

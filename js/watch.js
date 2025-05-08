@@ -22,7 +22,7 @@ function reply() {
 function danhgia() {
   alert("Bạn cần mua sản phẩm này để đánh giá!!");
 }
-//Chức năng lấy sô lượng sách bỏ vào giỏ hàng
+//Chức năng lấy sô lượng bỏ vào giỏ hàng
 function giohang() {
   let sluong = document.getElementById("sl").value;
   let errorgh = document.getElementById("errorgh");

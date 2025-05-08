@@ -78,8 +78,8 @@ $(document).ready(function () {
       return false;
     }
     // Kiểm tra tuổi nằm trong khoảng từ
-    if (!(age > 16)) {
-      e3.html("* Phải từ 16 tuổi trở lên!");
+    if (!(age > 18)) {
+      e3.html("* Phải từ 18 tuổi trở lên!");
       return false;
     }
 
